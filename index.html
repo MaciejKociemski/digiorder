@@ -49,20 +49,55 @@
     </header>
     <!--end header-->
     <!--start main-->
-    <main class="main">
+
+    <!--login password-->
+<div class="logpas">
+    <form  class="loginpassword" autocomplete="off" method="POST" action="javascript:void(0);">
+        <label>
+            <span>Login</span>
+            <input class="loginheader" type="text" name="login" placeholder="   please add login" />
+        </label>
+        <label>
+            <span>Password</span>
+            <input class="passwordheader" type="password" name="password" placeholder="   please add password" />
+        </label>
+        <button class="button headerek" type="submit">Submit</button>
+    </form>
+</div>
+<!--end of login and password-->
+
+    <main class="main"><section class="buttons">
+        <div class="container">
+            <ul class="buttons">
+                <li><button type="button" class="button">Wszystkie</button></li>
+                <li><button type="button" class="button">Strony</button></li>
+                <li><button type="button" class="button">Aplikacje</button></li>
+                <li><button type="button" class="button">Dizajn</button></li>
+                <li><button type="button" class="button">Marketing</button></li>
+                
+                    <li>
+                        <button type="button" class="button" data-modal-open="">Złóż zamówienie
+                        </button></li>
+                
+                
+                
+                
+            </ul>
+        </div>
+    </section>
 
         <!--first section header and button-->
         <section class="tittle">
 
-            <h1 class="main-tittle"><img src="./images/digiorder_logo.jpg" width="" /></h1>
+            <h1 class="main-tittle"><img src="./images/digiorder_logo.jpg" width="350" /></h1>
             <h1 class="main-tittle_bottom">bezpośrednie zamówienia</h1>
-            <div>
+            <!-- <div>
                 <p class="main-link" data-modal-open><button  class="main-button order">Złóż zamówienie
                         </button></p>
 
 
 
-            </div>
+            </div> -->
 
         </section>
 
@@ -140,26 +175,29 @@
                 <ul class="photos-list">
                     <li class="work-item">
                         <a href="#">
-                            <p class="range-work">Aplikacje komputerowe</p>
+                            <p class="range-work">Sieć powiązań</p>
                             <img class="screen"
-                                src="images/close-up-image-programer-working-his-desk-office_1098-18707.jpg" width="370"
-                                height="294" alt="programer working his desk office" />
+                                src="./images/background-g5b5e97f15_640.jpg" width="370"
+                                height="294" alt="chain" />
 
                         </a>
-                    </li>
+                        <div class="overlay">
+                            <p class="text">nasza sieć powiązań to nic innego jak lista Klientów i Partnerów Handlowych</p>
+                        </div>
 
+                        </li>
 
                     <li class="work-item"><a href="#">
-                            <p class="range-work">Aplikacje mobilne</p>
+                            <p class="range-work">przewodnik po partnerach</p>
                             <img class="screen"
-                                src="images/web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg"
+                                src="./images/woman-g06d860122_640.jpg"
                                 width="370" height="294" alt="creators is working interface mobile phones" />
                         </a>
                     </li>
                     <li class="work-item"><a href="#">
-                            <p class="range-work">Rozwiązania graficzne</p>
+                            <p class="range-work">Technologie dla Ciebie</p>
                             <img class="screen"
-                                src="images/creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg"
+                                src="./images/earbuds-g61781545d_640.jpg"
                                 width="370" height="294"
                                 alt="web design with working colour selection graphic tablet" />
                         </a>
@@ -177,10 +215,10 @@
                     <li class="our-team-member">
 
                         <figure class="our-team-people">
-                            <img src="images/4853.jpg" width="270" height="260"
+                            <img src="./images/c-3po-g5041ee180_1280.png" width="270" height="260"
                                 alt="young man with dark beard and glasses" />
                             <figcaption>
-                                <p class="worker-name"><strong>John Doe</strong> </p>
+                                <p class="worker-name"><strong>bot C3PO</strong> </p>
                                 <p class="worker-occupation">Product Designer</p>
                                 <ul class="socialmedia-box">
 
@@ -222,9 +260,9 @@
                     <li class="our-team-member">
 
                         <figure class="our-team-people">
-                            <img src="images/5844.jpg" width="270" height="260" alt="smiling blonde with glasses" />
+                            <img src="./images/star-wars-g5c76e1ed6_640.jpg" width="270" height="260" alt="smiling blonde with glasses" />
                             <figcaption>
-                                <p class="worker-name"><strong>John Doe</strong></p>
+                                <p class="worker-name"><strong>bot R2D2</strong></p>
                                 <p class="worker-occupation">
                                     Frontend Developer</p>
                                 <ul class="socialmedia-box">
@@ -266,9 +304,9 @@
                     <li class="our-team-member">
 
                         <figure class="our-team-people">
-                            <img src="images/16166.jpg" width="270" height="260" alt="young man in a bright shirt" />
+                            <img src="./images/cartoon-505_256.gif" width="270" height="260" alt="young man in a bright shirt" />
                             <figcaption>
-                                <p class="worker-name"><strong>John Doe</strong></p>
+                                <p class="worker-name"><strong>home sweet home</strong></p>
                                 <p class="worker-occupation"> Marketing</p>
                                 <ul class="socialmedia-box">
 
@@ -309,10 +347,10 @@
                     <li class="our-team-member item">
 
                         <figure class="our-team-people">
-                            <img src="images/2968.jpg" width="270" height="260" alt="young man i dark t-shirt" />
+                            <img src="./images/ aga.jpeg" width="270" height="260" alt="young man i dark t-shirt" />
                             <figcaption>
-                                <p class="worker-name"><strong>John Doe</strong></p>
-                                <p class="worker-occupation">UI Designer</p>
+                                <p class="worker-name"><strong>Agelina Cosiemsky</strong></p>
+                                <p class="worker-occupation">CPO</p>
                                 <ul class="socialmedia-box">
 
                                     <li> <span class="socialmedia-icon">
@@ -559,7 +597,7 @@
 
 <div class="form-field">
     <label class="comment-label" for="comment">Komentarz</label>
-    <textarea class="comment" name="comment" id="comment" rows="9" placeholder="Wprowadź tekst"></textarea>
+    <textarea class="comment" name="comment" id="comment" rows="9" placeholder="Daj nam znać czego potrzebujesz . Odezwiemy się ASAP!"></textarea>
 </div>
 <div class="form-field-check">
 
